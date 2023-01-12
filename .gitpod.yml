@@ -2,6 +2,6 @@ ports:
   - port: 8000
     onOpen: open-preview
 tasks:
-  - before: npm install -g @angular-cli
+  - before: npm install -g @angular/cli
     init: npm install
     command: npm run develop
