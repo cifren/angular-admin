@@ -1,7 +1,7 @@
+ports:
+  - port: 8000
+    onOpen: open-preview
 tasks:
-  - name: install
-    command: npm install
-  - name: Example of passing an environment variable to a command
-    env:
-      PRINT_ME: "Hello World!"
-    command: echo "$PRINT_ME"
+  - before: npm install -g angular-cli
+    init: npm install
+    command: npm run develop

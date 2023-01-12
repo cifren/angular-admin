@@ -15,9 +15,5 @@
   "bugs": {
     "url": "https://github.com/cifren/angular-admin/issues"
   },
-  "homepage": "https://github.com/cifren/angular-admin#readme",
-  "dependencies": {
-    "angular": "^1.8.3",
-    "angular-cli": "*"
-  }
+  "homepage": "https://github.com/cifren/angular-admin#readme"
 }
