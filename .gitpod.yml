@@ -1,4 +1,7 @@
 tasks:
+  - name: install
+    command: npm install
   - name: Example of passing an environment variable to a command
     env:
-      PATH: "$PATH:./node_modules/.bin"
+      PRINT_ME: "Hello World!"
+    command: echo "$PRINT_ME"
